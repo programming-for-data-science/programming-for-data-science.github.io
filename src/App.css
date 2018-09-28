@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400i|Roboto:100');
 
 .App {
   text-align: center;
@@ -6,12 +6,30 @@
 
 
 .App-header {
-  background-image: url(/background.png);
+  background-image: url(/imgs/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 250px;
   background-position: 50% 50%;
   color: white;
+  position:relative;
+}
+
+#book-description {
+  display: inline-block;
+  width: 69%;
+  vertical-align: top;
+  height: 250px;
+}
+
+#book-cover {
+  height:200px;
+  display:inline-block;
+  background-image: url(/imgs/front-cover.png);
+  background-repeat: no-repeat;
+  width:200px;
+  height:250px;
+  background-size: cover;
 }
 
 
@@ -27,7 +45,51 @@
   font-size: large;
 }
 
+#links {
+  position: absolute;
+  bottom:0px;
+}
+#links a {
+  text-decoration:underline;
+  color:white;
+  padding:4px;
+  font-variant: small-caps;
+}
 
+.section-title {
+  color: gray;
+  font-family: Roboto;
+  margin-bottom: 0;
+  font-weight:100;
+  font-size: 2.5em;
+}
+
+
+#top-quote {
+  font-family:'Crimson Text';
+  opacity:.6;
+}
+
+#top-quote blockquote {
+  margin-bottom:0px;
+  font-size:1.5rem;
+}
+
+section {
+  margin-top:2px;
+  margin-left:auto;
+  margin-right:auto;
+  width:75%;
+  text-align:left;
+  opacity:.75;
+  font-size:18px;
+}
+
+li {
+  list-style-type:square;
+}
+
+/* Media Queries */
 @media (min-width: 760px) {
   .App-header {
     background-position:0% 24%;
@@ -45,3 +107,4 @@
     background-position:0% 29%;
   }
 }
+
