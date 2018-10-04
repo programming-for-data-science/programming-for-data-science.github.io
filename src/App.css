@@ -1,9 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400i|Roboto:100');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400i|Roboto:100,300,400');
+
+body {
+    font-family:Roboto, sans-serif;
+    font-weight:300;
+}
 
 .App {
   text-align: center;
 }
 
+#about, #resources {
+    background-color:#d3d3d33d;
+}
 
 .App-header {
   background-image: url(/imgs/background.png);
@@ -39,6 +47,7 @@
   font-family:Roboto;
   font-variant: small-caps;
   padding-top:89px;
+  font-weight:100;
 }
 
 .App-intro {
@@ -59,9 +68,10 @@
 .section-title {
   color: gray;
   font-family: Roboto;
-  margin-bottom: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-weight:100;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 
@@ -75,7 +85,7 @@
   font-size:1.5rem;
 }
 
-section {
+.section-container {
   margin-top:2px;
   margin-left:auto;
   margin-right:auto;
@@ -83,10 +93,23 @@ section {
   text-align:left;
   opacity:.75;
   font-size:18px;
+  padding-top:5px;
+  padding-bottom:5px;
 }
 
 li {
   list-style-type:square;
+}
+
+#projects {
+  width:100%;
+  height:auto;
+  margin-top:20px;
+
+}
+
+a:visited {
+    color: rgb(0, 0, 238);
 }
 
 /* Media Queries */
