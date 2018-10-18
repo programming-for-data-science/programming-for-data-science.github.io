@@ -36,7 +36,7 @@ class App extends Component {
                 <section id="learning">
                     <div class="section-container">
                         <h1 class="section-title">What You'll Learn</h1>
-                        <p><em>Programming Skills for Data Science</em> teaches you how to write code to work with data. Using the R software, you will programmatically work with real datasets to build interactive visualizations, web applications, and well-crafted visualizations. To see the code behind the image below, see the <a href="https://github.com/programming-for-data-science/in-action" target="_blank">In Action</a> code repository.</p>
+                        <p><em>Programming Skills for Data Science</em> teaches you how to write code to work with data. Using the R software, you will programmatically work with real datasets to build interactive visualizations, web applications, and well-crafted data reports. All the images below come from exercises in the book's <a href="https://github.com/programming-for-data-science/in-action" target="_blank">In Action</a> code repository.</p>
                         <img id="projects" src="imgs/projects.png" />
                     </div>
                 </section>
@@ -61,7 +61,7 @@ class App extends Component {
                         <div id="book-description"><p>The book is available both online and in print. <strong>Students:</strong> you may have access through your University's subscription to <a href="https://www.safaribooksonline.com/library/view/programming-skills-for/9780135159071/">Safari Books Online</a>. For other shopping options, see:</p>
                             <ul>
                                 <li><a href="https://www.pearson.com/us/higher-education/program/Freeman-Programming-Skills-for-Data-Science-Start-Writing-Code-to-Wrangle-Analyze-and-Visualize-Data-with-R/PGM2047488.html" target="_blank">Pearson</a></li>
-                                <li><a href="" target="_blank">Amazon</a></li>
+                                <li><a href="https://www.amazon.com/gp/product/0135133106" target="_blank">Amazon</a></li>
                                 <li>Your local bookstore (availability may vary)</li>
                             </ul>
                         </div>
@@ -72,7 +72,7 @@ class App extends Component {
                     <div class="section-container">
                         <h1 class="section-title">Resources</h1>
                         <p>To suppliment the text, there are a number of free and open-source resources to support your learning.</p>
-                        <p><strong>Online Exercises: </strong>The full set of online exercises is available online. We have provided both <a href="https://github.com/programming-for-data-science/book-exercises" target="_blank">excercise instructions</a>, as well as the <a href="https://github.com/programming-for-data-science/book-exercises/tree/solution" target="_blank">complete code.</a></p>
+                        <p><strong>Online Exercises: </strong>The full set of book exercises is available online. We have provided both <a href="https://github.com/programming-for-data-science/book-exercises" target="_blank">excercise instructions</a>, as well as the <a href="https://github.com/programming-for-data-science/book-exercises/tree/solution" target="_blank">complete code.</a></p>
                         <p><strong>In Action Examples: </strong>The text includes a number of applied examples in the form of <em>In Action</em> sections. These include:</p>
                         <ul>
                             <li><a target="_blank" href="https://github.com/programming-for-data-science/in-action/tree/master/dplyr">Flight Delays</a>: The <em><code>dplyr</code> In Action</em> section uses the <code>dplyr</code> package to explore the <code>nycflights13</code> data set, asking targetting questions about the 300,000+ flights that departed from New York City airports in 2013.</li>
