@@ -25,9 +25,8 @@ body {
 
 #book-description {
   display: inline-block;
-  width: 69%;
+  width: 100%;
   vertical-align: top;
-  height: 250px;
 }
 
 #book-cover {
@@ -57,11 +56,13 @@ body {
 #links {
   position: absolute;
   bottom:0px;
+  text-align:center;
+  width:100%;
 }
 #links a {
   text-decoration:underline;
   color:white;
-  padding:4px;
+  padding:6px;
   font-variant: small-caps;
 }
 
@@ -117,11 +118,18 @@ a:visited {
   .App-header {
     background-position:0% 24%;
   }
+  #book-description {
+    width:69%;
+  }
   .App-title {
     padding-top:0px;
     padding-left:5px;
     font-size:3rem;
     text-align:left;
+  }
+  #links {
+    text-align:left;
+    font-size:20px;
   }
 }
 
